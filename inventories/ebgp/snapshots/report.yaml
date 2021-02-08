@@ -1,0 +1,1077 @@
+devices:
+  DC1-L2LEAF1A:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 0:19:19 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet3           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet3           120
+        Et7           DC1-L2LEAF2A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF2A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-L2LEAF2A:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 11 days, 4:58:28 ago
+        Number of table inserts  : 14
+        Number of table deletes  : 2
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet4           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet4           120
+        Et7           DC1-L2LEAF1A.arista.com       Ethernet7           120
+        Et8           DC1-L2LEAF1A.arista.com       Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-LEAF1A:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 0:10:45 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 25
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet1           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet1           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet1           120
+        Et7           DC1-LEAF1B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-LEAF1B:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 11 days, 4:58:11 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 3
+        Number of table drops    : 0
+        Number of table age-outs : 2
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet2           120
+        Et2           DC1-SPINE2.arista.com         Ethernet2           120
+        Et3           DC1-L2LEAF1A.arista.com       Ethernet2           120
+        Et4           DC1-L2LEAF2A.arista.com       Ethernet2           120
+        Et7           DC1-LEAF1A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF1A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-LEAF2A:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 11 days, 4:58:00 ago
+        Number of table inserts  : 18
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 6
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet4           120
+        Et2           DC1-SPINE2.arista.com         Ethernet4           120
+        Et7           DC1-LEAF2B.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2B.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-LEAF2B:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 11 days, 4:53:08 ago
+        Number of table inserts  : 12
+        Number of table deletes  : 0
+        Number of table drops    : 0
+        Number of table age-outs : 0
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-SPINE1.arista.com         Ethernet5           120
+        Et2           DC1-SPINE2.arista.com         Ethernet5           120
+        Et7           DC1-LEAF2A.arista.com         Ethernet7           120
+        Et8           DC1-LEAF2A.arista.com         Ethernet8           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+  DC1-SPINE1:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 2 days, 8:12:31 ago
+        Number of table inserts  : 38
+        Number of table deletes  : 26
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et1           DC1-LEAF1A.arista.com         Ethernet1           120
+        Et2           DC1-LEAF1B.arista.com         Ethernet1           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet1           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet1           120
+        Ma1           DC1-SPINE2.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+  DC1-SPINE2:
+    "show lldp neighbors":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip interface brief":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show interfaces description":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show version":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show running-config":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120
+    "show ip bgp summary":
+      |-
+        Last table change time   : 0:10:43 ago
+        Number of table inserts  : 17
+        Number of table deletes  : 6
+        Number of table drops    : 0
+        Number of table age-outs : 4
+
+        Port          Neighbor Device ID            Neighbor Port ID    TTL
+        ---------- ----------------------------- ---------------------- ---
+        Et2           DC1-LEAF1B.arista.com         Ethernet2           120
+        Et4           DC1-LEAF2A.arista.com         Ethernet2           120
+        Et5           DC1-LEAF2B.arista.com         Ethernet2           120
+        Ma1           DC1-SPINE1.arista.com         Management1         120
+        Ma1           DC1-L2LEAF1A.arista.com       Management1         120
+        Ma1           DC1-LEAF2A.arista.com         Management1         120
+        Ma1           DC1-LEAF1B.arista.com         Management1         120
+        Ma1           DC1-L2LEAF2A.arista.com       Management1         120
+        Ma1           DC1-LEAF1A.arista.com         Management1         120
+        Ma1           LEAF-21                       Management1         120
+        Ma1           DC1-LEAF2B.arista.com         Management1         120

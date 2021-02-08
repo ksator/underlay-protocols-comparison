@@ -1,0 +1,31 @@
+BGP summary information for VRF default
+Router identifier 192.168.255.5, local AS number 65102
+Neighbor Status Codes: m - Under maintenance
+  Neighbor         V  AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  10.255.254.5     4  65102            109       116    0    0 01:22:11 Estab   7      7
+  fe80::e1d:c0ff:fea3:86f3%Et1 4  65001            106       105    0    0 01:24:02 Estab   4      4
+  fe80::5214:ff:fe34:236a%Et2 4  65001            107       104    0    0 01:24:04 Estab   4      4
+
+BGP summary information for VRF Tenant_A_APP_Zone
+Router identifier 192.168.255.5, local AS number 65102
+Neighbor Status Codes: m - Under maintenance
+  Neighbor         V  AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  10.255.254.5     4  65102            109       117    0    0 01:21:25 Estab   5      5
+
+BGP summary information for VRF Tenant_A_WEB_Zone
+Router identifier 192.168.255.5, local AS number 65102
+Neighbor Status Codes: m - Under maintenance
+  Neighbor         V  AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  10.255.254.5     4  65102            111       117    0    0 01:21:25 Estab   4      4
+
+BGP summary information for VRF Tenant_B_APP_Zone
+Router identifier 192.168.255.5, local AS number 65102
+Neighbor Status Codes: m - Under maintenance
+  Neighbor         V  AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  10.255.254.5     4  65102            110       116    0    0 01:21:25 Estab   4      4
+
+BGP summary information for VRF Tenant_B_WAN_Zone
+Router identifier 192.168.255.5, local AS number 65102
+Neighbor Status Codes: m - Under maintenance
+  Neighbor         V  AS           MsgRcvd   MsgSent  InQ OutQ  Up/Down State   PfxRcd PfxAcc
+  10.255.254.5     4  65102            112       121    0    0 01:21:29 Estab   3      3

@@ -1,0 +1,3 @@
+IPv6 Address                                  Age Hardware Addr    State Interface
+fe80::e1d:c0ff:fea3:86f3                  0:00:37 0c1d.c0a3.86f3   REACH Et1
+fe80::5214:ff:fe34:236a                   0:00:40 5014.0034.236a   REACH Et2

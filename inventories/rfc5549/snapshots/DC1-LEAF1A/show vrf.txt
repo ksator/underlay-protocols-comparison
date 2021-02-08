@@ -1,0 +1,35 @@
+Maximum number of vrfs allowed: 1024
+  VRF                    RD                    Protocols      State             
+---------------------- --------------------- -------------- ------------------- 
+  MGMT                   <not set>             ipv4,ipv6      v4:no routing,    
+                                                              v6:no routing     
+                                                                                
+  Tenant_A_APP_Zone      192.168.255.3:10      ipv4,ipv6      v4:routing,       
+                                                              v6:no routing     
+                                                                                
+  Tenant_A_WEB_Zone      192.168.255.3:11      ipv4,ipv6      v4:routing,       
+                                                              v6:no routing     
+                                                                                
+  Tenant_B_APP_Zone      192.168.255.3:20      ipv4,ipv6      v4:routing,       
+                                                              v6:no routing     
+                                                                                
+  Tenant_B_WAN_Zone      192.168.255.3:21      ipv4,ipv6      v4:routing,       
+                                                              v6:no routing     
+                                                                                
+  default                <not set>             ipv4,ipv6      v4:routing,       
+                                                              v6:routing        
+                                                                                
+
+Interfaces                  
+--------------------------- 
+Management1                 
+Vlan110, Vlan111, Vlan112,  
+Vlan1179, Vlan3009          
+Vlan1194, Vlan120, Vlan121, 
+Vlan3010                    
+Vlan1009, Vlan210, Vlan211, 
+Vlan3019                    
+Vlan1008, Vlan250, Vlan3020 
+Ethernet1, Ethernet2,       
+Loopback0, Loopback1,       
+Vlan4093, Vlan4094

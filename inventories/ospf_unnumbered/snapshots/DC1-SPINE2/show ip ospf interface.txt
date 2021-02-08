@@ -1,0 +1,50 @@
+Loopback0 is up
+  Interface Address 192.168.255.2/32, instance 1, VRF default, Area 0.0.0.0
+  Network Type Broadcast, Cost: 10
+  Transmit Delay is 1 sec, State DR, Priority 1
+  Designated Router is 192.168.255.2
+  No Backup Designated Router on this network
+  Timer intervals configured, Hello 10, Dead 40, Retransmit 5
+  Neighbor Count is 0 (Passive Interface)
+  No authentication
+  Traffic engineering is disabled
+Ethernet4 is up
+  Interface Address 192.168.255.2/32, instance 1, VRF default, Area 0.0.0.0
+  Network Type Point-To-Point, Cost: 10
+  Transmit Delay is 1 sec, State P2P
+  No Designated Router on this network
+  No Backup Designated Router on this network
+  Timer intervals configured, Hello 2, Dead 8, Retransmit 5
+  Neighbor Count is 1
+  Message-digest authentication, using key id 1
+  Traffic engineering is disabled
+Ethernet1 is up
+  Interface Address 192.168.255.2/32, instance 1, VRF default, Area 0.0.0.0
+  Network Type Point-To-Point, Cost: 10
+  Transmit Delay is 1 sec, State P2P
+  No Designated Router on this network
+  No Backup Designated Router on this network
+  Timer intervals configured, Hello 2, Dead 8, Retransmit 5
+  Neighbor Count is 1
+  Message-digest authentication, using key id 1
+  Traffic engineering is disabled
+Ethernet2 is up
+  Interface Address 192.168.255.2/32, instance 1, VRF default, Area 0.0.0.0
+  Network Type Point-To-Point, Cost: 10
+  Transmit Delay is 1 sec, State P2P
+  No Designated Router on this network
+  No Backup Designated Router on this network
+  Timer intervals configured, Hello 2, Dead 8, Retransmit 5
+  Neighbor Count is 1
+  Message-digest authentication, using key id 1
+  Traffic engineering is disabled
+Ethernet5 is up
+  Interface Address 192.168.255.2/32, instance 1, VRF default, Area 0.0.0.0
+  Network Type Point-To-Point, Cost: 10
+  Transmit Delay is 1 sec, State P2P
+  No Designated Router on this network
+  No Backup Designated Router on this network
+  Timer intervals configured, Hello 2, Dead 8, Retransmit 5
+  Neighbor Count is 1
+  Message-digest authentication, using key id 1
+  Traffic engineering is disabled

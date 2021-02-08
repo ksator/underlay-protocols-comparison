@@ -1,0 +1,27 @@
+BGP routing table information for VRF default
+Router identifier 192.168.255.6, local AS number 65102
+Route status codes: s - suppressed, * - valid, > - active, # - not installed, E - ECMP head, e - ECMP
+                    S - Stale, c - Contributing to ECMP, b - backup, L - labeled-unicast
+                    % - Pending BGP convergence
+Origin codes: i - IGP, e - EGP, ? - incomplete
+RPKI Origin Validation codes: V - valid, I - invalid, U - unknown
+AS Path Attributes: Or-ID - Originator ID, C-LST - Cluster List, LL Nexthop - Link Local Nexthop
+
+          Network                Next Hop              Metric  LocPref Weight  Path
+ * >Ec    192.168.254.3/32       fe80::5214:ff:fe34:236a%Et2 0       100     0       65001 65101 i
+ *  ec    192.168.254.3/32       fe80::e1d:c0ff:fea3:86f3%Et1 0       100     0       65001 65101 i
+ *        192.168.254.3/32       10.255.254.4          0       100     0       65001 65101 ?
+ * >      192.168.254.5/32       -                     -       -       0       i
+ *        192.168.254.5/32       10.255.254.4          0       100     0       ?
+ * >      192.168.255.1/32       fe80::e1d:c0ff:fea3:86f3%Et1 0       100     0       65001 i
+ *        192.168.255.1/32       10.255.254.4          0       100     0       65001 ?
+ * >      192.168.255.2/32       fe80::5214:ff:fe34:236a%Et2 0       100     0       65001 i
+ *        192.168.255.2/32       10.255.254.4          0       100     0       65001 ?
+ * >Ec    192.168.255.3/32       fe80::5214:ff:fe34:236a%Et2 0       100     0       65001 65101 i
+ *  ec    192.168.255.3/32       fe80::e1d:c0ff:fea3:86f3%Et1 0       100     0       65001 65101 i
+ *        192.168.255.3/32       10.255.254.4          0       100     0       65001 65101 ?
+ * >Ec    192.168.255.4/32       fe80::5214:ff:fe34:236a%Et2 0       100     0       65001 65101 i
+ *  ec    192.168.255.4/32       fe80::e1d:c0ff:fea3:86f3%Et1 0       100     0       65001 65101 i
+ *        192.168.255.4/32       10.255.254.4          0       100     0       65001 65101 ?
+ * >      192.168.255.5/32       10.255.254.4          0       100     0       ?
+ * >      192.168.255.6/32       -                     -       -       0       i
