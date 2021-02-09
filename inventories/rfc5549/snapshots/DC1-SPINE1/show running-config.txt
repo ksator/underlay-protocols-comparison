@@ -81,6 +81,9 @@ ip route vrf MGMT 0.0.0.0/0 10.73.1.1
 route-map RM-CONN-2-BGP permit 10
    match ip address prefix-list PL-LOOPBACKS-EVPN-OVERLAY
 !
+peer-filter LEAF_PF
+   10 match as-range 65101-65102 result accept
+!
 router bfd
    multihop interval 1200 min-rx 1200 multiplier 3
 !
