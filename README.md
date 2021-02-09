@@ -1,5 +1,6 @@
 ```
 git clone https://github.com/aristanetworks/ansible-avd.git
+git clone https://github.com/aristanetworks/ansible-cvp.git
 git clone https://github.com/ksator/eos_lab.git
 cd eos_lab
 ```
@@ -22,12 +23,12 @@ ansible-playbook playbooks/load_intended_config.yml -i inventories/{{ lab }}/inv
 
 To collect "show commands" from devices:
 ```
-vi ls inventories/{{ lab }}/group_vars/DC1_FABRIC.yml
+ls inventories/{{ lab }}/group_vars/DC1_FABRIC.yml
 ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
 ls inventories/{{ lab }}/snapshots
 ```
 
-To update the intended configuration, collect the running configuration (using the snapshot.yml playbook) and copy the collected running configuration from the snapshots directory to the intended directory:
+If you would like to update the intended configuration, collect the running configuration (using the snapshot.yml playbook) and use the update_intended_config.yml playbook to copy the collected running configuration from the snapshots directory to the intended directory:
 ```
 ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
 more inventories/{{ lab }}/snapshots/{{ inventory_hostname }}/show running-config.txt
