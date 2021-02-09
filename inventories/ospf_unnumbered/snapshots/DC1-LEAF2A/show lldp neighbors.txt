@@ -1,6 +1,6 @@
-Last table change time   : 3 days, 23:52:45 ago
-Number of table inserts  : 22
-Number of table deletes  : 10
+Last table change time   : 20:43:19 ago
+Number of table inserts  : 24
+Number of table deletes  : 12
 Number of table drops    : 0
 Number of table age-outs : 8
 

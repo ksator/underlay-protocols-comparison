@@ -343,7 +343,6 @@ router bgp 65101
 router ospf 1
    router-id 192.168.255.4
    auto-cost reference-bandwidth 1000000
-   bfd default
    passive-interface Loopback0
    passive-interface Loopback1
    max-lsa 12000

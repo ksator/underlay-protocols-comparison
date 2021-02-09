@@ -14,10 +14,10 @@ Vlan121         10.1.121.1/24        up         up              1500
 Vlan210         10.2.210.1/24        up         up              1500            
 Vlan211         10.2.211.1/24        up         up              1500            
 Vlan250         10.2.250.1/24        up         up              1500            
-Vlan1012        unassigned           up         up              9164            
-Vlan1013        unassigned           up         up              9164            
-Vlan1024        unassigned           up         up              9164            
 Vlan1179        unassigned           up         up              9164            
+Vlan1182        unassigned           up         up              9164            
+Vlan1183        unassigned           up         up              9164            
+Vlan1184        unassigned           up         up              9164            
 Vlan1194        unassigned           up         up              9164            
 Vlan4093        10.255.254.0/31      up         up              1500            
 Vlan4094        10.255.252.0/31      up         up              1500

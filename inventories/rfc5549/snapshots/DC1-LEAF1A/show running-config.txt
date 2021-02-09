@@ -302,6 +302,7 @@ router bgp 65101
    neighbor MLAG-IPv4-PEER remote-as 65101
    neighbor MLAG-IPv4-PEER next-hop-self
    neighbor MLAG-IPv4-PEER route-map RM-MLAG-PEER-IN in
+   neighbor MLAG-IPv4-PEER password 7 w8NlNVwFXv8jnxgh6ur1ag==
    neighbor MLAG-IPv4-PEER send-community
    neighbor MLAG-IPv4-PEER maximum-routes 12000
    neighbor UNDERLAY_PG peer group

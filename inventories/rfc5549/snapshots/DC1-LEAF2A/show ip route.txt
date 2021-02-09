@@ -33,5 +33,3 @@ Gateway of last resort is not set
            via fe80::5214:ff:fe34:236a, Ethernet2
  C        192.168.255.5/32 [0/0]
            via Loopback0, directly connected
- B I      192.168.255.6/32 [200/0]
-           via 10.255.254.5, Vlan4093
