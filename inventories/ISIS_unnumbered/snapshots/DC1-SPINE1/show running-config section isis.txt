@@ -1,0 +1,52 @@
+interface Ethernet1
+   description P2P_LINK_TO_DC1-LEAF1A_Ethernet1
+   no switchport
+   ip address unnumbered Loopback0
+   isis enable EVPN_UNDERLAY
+   isis network point-to-point
+   isis authentication mode md5
+   isis authentication key 7 m89QJMCtp4LRQGQz7SJF/Q==
+!
+interface Ethernet2
+   description P2P_LINK_TO_DC1-LEAF1B_Ethernet1
+   no switchport
+   ip address unnumbered Loopback0
+   isis enable EVPN_UNDERLAY
+   isis network point-to-point
+   isis authentication mode md5
+   isis authentication key 7 m89QJMCtp4LRQGQz7SJF/Q==
+!
+interface Ethernet4
+   description P2P_LINK_TO_DC1-LEAF2A_Ethernet1
+   no switchport
+   ip address unnumbered Loopback0
+   isis enable EVPN_UNDERLAY
+   isis network point-to-point
+   isis authentication mode md5
+   isis authentication key 7 m89QJMCtp4LRQGQz7SJF/Q==
+!
+interface Ethernet5
+   description P2P_LINK_TO_DC1-LEAF2B_Ethernet1
+   no switchport
+   ip address unnumbered Loopback0
+   isis enable EVPN_UNDERLAY
+   isis network point-to-point
+   isis authentication mode md5
+   isis authentication key 7 m89QJMCtp4LRQGQz7SJF/Q==
+!
+interface Loopback0
+   description EVPN_Overlay_Peering
+   ip address 192.168.255.1/32
+   isis enable EVPN_UNDERLAY
+   isis passive
+!
+router isis EVPN_UNDERLAY
+   net 49.0001.0001.0000.0001.00
+   router-id ipv4 192.168.255.1
+   is-type level-1
+   log-adjacency-changes
+   authentication mode md5
+   authentication key 7 m89QJMCtp4LRQGQz7SJF/Q==
+   !
+   address-family ipv4 unicast
+      maximum-paths 2

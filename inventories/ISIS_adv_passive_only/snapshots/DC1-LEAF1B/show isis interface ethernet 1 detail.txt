@@ -1,0 +1,21 @@
+IS-IS Instance: EVPN_UNDERLAY VRF: default
+
+  Interface Ethernet1:
+    Index: 16 SNPA: P2P
+    MTU: 1497 Type: point-to-point
+    Area Proxy Boundary is Disabled
+    BFD IPv4 is Disabled
+    BFD IPv6 is Disabled
+    Hello Padding is Enabled
+    Level 1:
+      Metric: 10, Number of adjacencies: 1
+      Link-ID: 10
+      Authentication mode: MD5
+      TI-LFA protection is disabled for node-segment prefixes
+    Adjacency DC1-SPINE1:
+      State: UP, Level: 1 Type: Level 1 IS
+      Advertised Hold Time: 30
+      Supported Protocols: IPv4
+      IPv4 Interface Address: 172.31.255.4
+      Areas:
+        49.0001

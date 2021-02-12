@@ -1,0 +1,23 @@
+---
+fabric_name: DC1_FABRIC
+
+output_format:
+  - text
+  # - markdown
+  # - json
+  # - yaml
+commands_list:
+  - show lldp neighbors
+  - show ip interface brief
+  - show version
+  - show ip route
+  - show running-config
+  - show bgp evpn summary
+  - show isis neighbors
+  - show ip route isis
+  - show isis interface
+  - show running-config section isis
+  - show isis interface ethernet 1 detail
+  - show isis hostname
+  - show isis database detail
+

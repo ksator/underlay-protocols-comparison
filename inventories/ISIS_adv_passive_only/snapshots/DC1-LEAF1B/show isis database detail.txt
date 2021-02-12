@@ -1,0 +1,112 @@
+IS-IS Instance: EVPN_UNDERLAY VRF: default
+  IS-IS Level 1 Link State Database
+    LSPID                 Seq Num   Cksum  Life  IS Flags
+    DC1-SPINE1.00-00      41        38296  1014  L1 <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-SPINE1
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.8
+      Interface address: 172.31.255.12
+      Interface address: 172.31.255.4
+      Interface address: 172.31.255.0
+      Interface address: 192.168.255.1
+      IS Neighbor          : DC1-LEAF2B.00       Metric: 10
+      IS Neighbor          : DC1-LEAF2A.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1B.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1A.00       Metric: 10
+      Reachability         : 192.168.255.1/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.1 Flags: [ ]
+        Area leader priority: 250 algorithm: 0
+    DC1-SPINE2.00-00      24        41671  1126  L1 <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-SPINE2
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.14
+      Interface address: 172.31.255.10
+      Interface address: 172.31.255.6
+      Interface address: 172.31.255.2
+      Interface address: 192.168.255.2
+      IS Neighbor          : DC1-LEAF2B.00       Metric: 10
+      IS Neighbor          : DC1-LEAF2A.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1B.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1A.00       Metric: 10
+      Reachability         : 192.168.255.2/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.2 Flags: [ ]
+        Area leader priority: 250 algorithm: 0
+    DC1-LEAF1A.00-00      36        62604  713   L1 <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-LEAF1A
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.3
+      Interface address: 172.31.255.1
+      Interface address: 10.255.254.0
+      Interface address: 192.168.255.3
+      Interface address: 192.168.254.3
+      IS Neighbor          : DC1-SPINE2.00       Metric: 10
+      IS Neighbor          : DC1-SPINE1.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1B.00       Metric: 10
+      Reachability         : 192.168.255.3/32 Metric: 10 Type: 1 Up
+      Reachability         : 192.168.254.3/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.3 Flags: [ ]
+        Area leader priority: 250 algorithm: 0
+    DC1-LEAF1B.00-00      19        60746  727   L1 <>
+      LSP generation remaining wait time: 0 ms
+      Time remaining until refresh: 427 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-LEAF1B
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.7
+      Interface address: 172.31.255.5
+      Interface address: 10.255.254.1
+      Interface address: 192.168.255.4
+      Interface address: 192.168.254.3
+      IS Neighbor          : DC1-SPINE2.00       Metric: 10
+      IS Neighbor          : DC1-SPINE1.00       Metric: 10
+      IS Neighbor          : DC1-LEAF1A.00       Metric: 10
+      Reachability         : 192.168.255.4/32 Metric: 10 Type: 1 Up
+      Reachability         : 192.168.254.3/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.4 Flags: [ ]
+        Area leader priority: 250 algorithm: 0
+    DC1-LEAF2A.00-00      21        29217  746   L1 <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-LEAF2A
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.11
+      Interface address: 172.31.255.9
+      Interface address: 10.255.254.4
+      Interface address: 192.168.255.5
+      Interface address: 192.168.254.5
+      IS Neighbor          : DC1-SPINE1.00       Metric: 10
+      IS Neighbor          : DC1-SPINE2.00       Metric: 10
+      IS Neighbor          : DC1-LEAF2B.00       Metric: 10
+      Reachability         : 192.168.255.5/32 Metric: 10 Type: 1 Up
+      Reachability         : 192.168.254.5/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.5 Flags: [ ]
+        Area leader priority: 250 algorithm: 0
+    DC1-LEAF2B.00-00      26        7763   804   L1 <>
+      Remaining lifetime received: 1199 s Modified to: 1200 s
+      NLPID: 0xCC(IPv4)
+      Hostname: DC1-LEAF2B
+      Authentication mode: MD5 Length: 17
+      Area address: 49.0001
+      Interface address: 172.31.255.15
+      Interface address: 172.31.255.13
+      Interface address: 10.255.254.5
+      Interface address: 192.168.254.5
+      Interface address: 192.168.255.6
+      IS Neighbor          : DC1-SPINE2.00       Metric: 10
+      IS Neighbor          : DC1-SPINE1.00       Metric: 10
+      IS Neighbor          : DC1-LEAF2A.00       Metric: 10
+      Reachability         : 192.168.254.5/32 Metric: 10 Type: 1 Up
+      Reachability         : 192.168.255.6/32 Metric: 10 Type: 1 Up
+      Router Capabilities: Router Id: 192.168.255.6 Flags: [ ]
+        Area leader priority: 250 algorithm: 0

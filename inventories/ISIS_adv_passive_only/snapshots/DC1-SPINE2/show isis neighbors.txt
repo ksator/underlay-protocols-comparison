@@ -1,0 +1,5 @@
+Instance  VRF      System Id        Type Interface          SNPA              State Hold time   Circuit Id          
+EVPN_UNDE default  DC1-LEAF1A       L1   Ethernet1          P2P               UP    24          11                  
+EVPN_UNDE default  DC1-LEAF1B       L1   Ethernet2          P2P               UP    23          11                  
+EVPN_UNDE default  DC1-LEAF2A       L1   Ethernet4          P2P               UP    26          11                  
+EVPN_UNDE default  DC1-LEAF2B       L1   Ethernet5          P2P               UP    23          11
