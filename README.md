@@ -1,3 +1,6 @@
+This repository provide EOS configuration files examples for EVPN-VXLAN fabrics using various underlay options.
+It provides also show commands output for each scenario.
+
 Topology details:
 - 2 spines
 - 4 L3 leaves:
@@ -20,6 +23,7 @@ Topology details:
    - [ISIS_adv_passive_only](inventories/ISIS_adv_passive_only)
    - [ISIS_unnumbered](inventories/ISIS_unnumbered)
 
+Repository usage:
 
 ```
 git clone https://github.com/aristanetworks/ansible-avd.git
@@ -47,14 +51,19 @@ To collect "show commands" from devices:
 ```
 ls inventories/{{ lab }}/group_vars/DC1_FABRIC.yml
 ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
+```
+```
 ls inventories/{{ lab }}/snapshots
 ```
 
-If you would like to update the intended configuration, collect the running configuration (using the snapshot.yml playbook) and use the update_intended_config.yml playbook to copy the collected running configuration from the snapshots directory to the intended directory:
+If you would like to update the intended configuration, collect the running configuration (using the `snapshot.yml` playbook) and use the `update_intended_config.yml` playbook to copy the collected running configuration from the `snapshots` directory to the `intended` directory:
 ```
 ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
 more inventories/{{ lab }}/snapshots/{{ inventory_hostname }}/show running-config.txt
+```
+```
 ansible-playbook playbooks/update_intended_config.yml -i inventories/{{ lab }}/inventory.yml
+```
+```
 ls inventories/{{ lab }}/intended/configs
 ```
-
