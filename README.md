@@ -16,10 +16,10 @@ Topology details:
  - Lo1 for VTEP source address
  - VLAN aware bundle
  - Underlay options:
-   - [EBGP](inventories/EBGP)
-   - [RFC5549](inventories/RFC5549)
-   - [OSPF](inventories/OSPF)
-   - [OSPF_unnumbered](inventories/OSPF_unnumbered)
+   - [EBGP](inventories/ebgp)
+   - [RFC5549](inventories/rfc5549)
+   - [OSPF](inventories/ospf)
+   - [OSPF_unnumbered](inventories/ospf_unnumbered)
    - [ISIS_adv_passive_only](inventories/ISIS_adv_passive_only)
    - [ISIS_unnumbered](inventories/ISIS_unnumbered)
 
