@@ -9,7 +9,8 @@ This repository provides examples of EOS configuration files for an EVPN-VXLAN f
     - IPv6 link-local address is automatically configured
     - The IPv6 link-local address of the remote end is discovered via IPv6’s Neighbor Discovery Router Advertisement protocol
   - EBGP peers address are not configured
-    - EBGP uses the discovered IPv6 link-local address of the remote end
+    - On leaves, BGP uses the discovered IPv6 link-local address of the remote end (spines)
+    - On spines, BGP is configured with listen range
   - IPv4 NLRI advertisement with an IPv6 Next Hop
   - Routing of an IPv4 packet over a IPv6 network
 - [OSPF](inventories/ospf)
@@ -82,11 +83,13 @@ ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
 ls inventories/{{ lab }}/snapshots
 ```
 
-If you would like to update the intended configuration, collect the running configuration (using the [snapshot.yml](playbooks/snapshot.yml) playbook and use the [update_intended_config.yml](playbooks/update_intended_config.yml) playbook to copy the collected running configuration from the `snapshots` directory to the `intended` directory:
+If you would like to update the intended configuration from the devices running configuration:
+- Collect the running configuration (using the [snapshot.yml](playbooks/snapshot.yml) playbook)
 ```
 ansible-playbook playbooks/snapshot.yml -i inventories/{{ lab }}/inventory.yml
 more inventories/{{ lab }}/snapshots/{{ inventory_hostname }}/show running-config.txt
 ```
+- Then use the [update_intended_config.yml](playbooks/update_intended_config.yml) playbook to copy the collected running configuration from the `snapshots` directory to the `intended` directory
 ```
 ansible-playbook playbooks/update_intended_config.yml -i inventories/{{ lab }}/inventory.yml
 ```
