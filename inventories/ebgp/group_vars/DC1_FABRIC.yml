@@ -13,6 +13,7 @@ commands_list:
   - show version
   - show ip route
   - show running-config
+  - show running-config section bgp
   - show bgp evpn summary
   - show ip bgp summary vrf all
   - show ip bgp

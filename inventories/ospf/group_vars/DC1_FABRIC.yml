@@ -12,6 +12,7 @@ commands_list:
   - show version
   - show ip route
   - show running-config
+  - show running-config section ospf
   - show bgp evpn summary
   - show vrf
   - show ip ospf interface
