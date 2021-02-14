@@ -1,5 +1,5 @@
 This repository provide EOS configuration files examples for EVPN-VXLAN fabrics using various underlay options.
-It provides also show commands output for each scenario.
+It provides also `show commands` output for each scenario.
 
 Topology details:
 - 2 spines
