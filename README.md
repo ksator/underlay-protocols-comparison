@@ -35,6 +35,8 @@ This repository also provides various `show commands` output for each scenario.
 
 ## Topology details
 
+![lab.png](lab.png)
+
 - 2 spines
 - 4 L3 leaves:
   - MLAG to connect servers on L3 Leaves
