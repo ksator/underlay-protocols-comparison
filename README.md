@@ -1,11 +1,33 @@
+Topology details:
+- 2 spines
+- 4 L3 leaves:
+  - MLAG to connect servers on L3 Leaves
+- 2 L2 leaves:
+  - L2 leaves without MLAG
+  - Connected to L3 Leaves (MLAG on L3 Leaves and LAG on L2 leaves)
+ - Distributed routing on L3 Leaves
+ - EBGP overlay
+ - Symmetric IRB
+ - VRFs
+ - Lo0 for BGP peering (overlay)
+ - Lo1 for VTEP source address
+ - VLAN aware bundle
+ - Underlay options:
+   - [EBGP](inventories/EBGP)
+   - [RFC5549](inventories/RFC5549)
+   - [OSPF](inventories/OSPF)
+   - [OSPF_unnumbered](inventories/OSPF_unnumbered)
+   - [ISIS_adv_passive_only](inventories/ISIS_adv_passive_only)
+   - [ISIS_unnumbered](inventories/ISIS_unnumbered)
+
+
 ```
 git clone https://github.com/aristanetworks/ansible-avd.git
-git clone https://github.com/aristanetworks/ansible-cvp.git
 git clone https://github.com/ksator/eos_lab.git
 cd eos_lab
 ```
 
-To get the list of lab:
+To get the list of [lab](inventories):
 ```
 ls inventories
 ```
@@ -36,18 +58,3 @@ ansible-playbook playbooks/update_intended_config.yml -i inventories/{{ lab }}/i
 ls inventories/{{ lab }}/intended/configs
 ```
 
-[ebgp](inventories/ebgp):
-- 2 spines
-- 4 L3 leaves:
- - MLAG to connect servers on L3 Leaves
-- 2 L2 leaves:
-  - L2 leaves without MLAG
-  - connected to L3 Leaves (MLAG on L3 Leaves and LAG on L2 leaves)
- - distributed routing on L3 Leaves
- - EBGP underlay
- - EBGP overlay
- - symmetric IRB
- - VRFs
- - Lo0 for BGP peering (overlay)
- - Lo1 for VTEP source address
- - VLAN aware bundle
