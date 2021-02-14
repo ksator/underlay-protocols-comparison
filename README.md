@@ -3,10 +3,29 @@
 This repository provide EOS configuration files examples for EVPN-VXLAN fabrics using various underlay options:
    - [EBGP](inventories/ebgp)
    - [RFC5549](inventories/rfc5549)
+     - No IPv4 address configured on leaves <-> spines interfaces
+     - IPv6 enabled on leaves <-> spines interfaces
+       - IPv6 link-local address automatically configured
+       - The IPv6 link-local address of the remote end is discovered via IPv6’s Neighbor Discovery Router Advertisement protocol.
+     - EBGP peers address not configured
+       - EBGP uses the IPv6 link-local address of the remote end
+     - IPv4 NLRI advertisement with an IPv6 Next Hop
+     - Routing of an IPv4 packet over a IPv6 network
    - [OSPF](inventories/ospf)
+     - single area
+     - Lo0 and Lo1 are passive interfaces
    - [OSPF_unnumbered](inventories/ospf_unnumbered)
+     - single area
+     - Lo0 and Lo1 are passive interfaces
+     - leaves <-> spines interfaces are using Lo0 interface IP address
    - [ISIS_adv_passive_only](inventories/ISIS_adv_passive_only)
+     - level 1
+     - Lo0 and Lo1 are passive interfaces
+     - ISIS advertises only passive interfaces (Lo0 and Lo1)
    - [ISIS_unnumbered](inventories/ISIS_unnumbered)
+     - level 1
+     - Lo0 and Lo1 are passive interfaces
+     - leaves <-> spines interfaces are using Lo0 interface IP address
 
 It provides also `show commands` output for each scenario.
 
