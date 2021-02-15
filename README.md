@@ -35,21 +35,29 @@ This repository also provides various `show commands` output for each scenario.
 
 ## Topology details
 
-![lab.png](lab.png)
-
 - 2 spines
-- 4 L3 leaves:
+  - DC1-SPINE1 and DC1-SPINE2
+- 4 L3 leaves
   - MLAG to connect servers on L3 Leaves
-- 2 L2 leaves:
-  - L2 leaves without MLAG
-  - Connected to L3 Leaves (MLAG on L3 Leaves and LAG on L2 leaves)
-- Distributed routing on L3 Leaves
+    - DC1-LEAF1A and DC1-LEAF1B
+    - DC1-LEAF2A and DC1-LEAF2B
+  - Distributed routing on L3 Leaves
+- 2 L2 leaves
+  - They are optionals and this is not common
+  - DC1_L2LEAF1 and DC1_L2LEAF2
+  - No MLAG, no VXLAN, no L3
+  - Only VLANs
+  - Connected to L3 Leaves
+    - MLAG on L3 Leaves
+    - LAG on L2 leaves
 - EBGP overlay
-- Symmetric IRB
-- VRFs
-- Lo0 for BGP peering (overlay)
-- Lo1 for VTEP source address
-- VLAN aware bundle
+  - Symmetric IRB
+  - Lo0 for BGP peering (overlay)
+  - Lo1 for VTEP source address
+  - VLAN aware bundle
+  - VRFs
+
+![lab.png](lab.png)
 
 ## Repository usage
 
