@@ -64,8 +64,8 @@ This repository also provides various `show commands` output for each scenario.
 Clone the repository:
 ```
 git clone https://github.com/aristanetworks/ansible-avd.git
-git clone https://github.com/ksator/eos_lab.git
-cd eos_lab
+git clone https://github.com/ksator/underlay-protocols-comparison.git
+cd underlay-protocols-comparison
 ```
 
 To get the list of [lab](inventories):
