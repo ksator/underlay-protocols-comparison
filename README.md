@@ -64,7 +64,7 @@ This repository also provides various `show commands` output for each scenario.
 Clone the repository:
 ```
 git clone https://github.com/aristanetworks/ansible-avd.git
-git clone https://github.com/ksator/underlay-protocols-comparison.git
+git clone https://gitlab.aristanetworks.com/emea-se-team/underlay-protocols-comparison.git
 cd underlay-protocols-comparison
 ```
 
