@@ -25,16 +25,6 @@ all:
                       ansible_port: 3007
                     DC1-LEAF2B:
                       ansible_port: 3008
-            DC1_L2LEAFS:
-              children:
-                DC1_L2LEAF1:
-                  hosts:
-                    DC1-L2LEAF1A:
-                      ansible_port: 3017
-                DC1_L2LEAF2:
-                  hosts:
-                    DC1-L2LEAF2A:
-                      ansible_port: 3018
           vars:
             ansible_connection: httpapi
             ansible_httpapi_port: '{{ansible_port}}'
