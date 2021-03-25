@@ -1,0 +1,32 @@
+route-map RM-CONN-2-BGP permit 10
+   match ip address prefix-list PL-LOOPBACKS-EVPN-OVERLAY
+!
+router bgp 65001
+   router-id 192.168.255.1
+   no bgp default ipv4-unicast
+   distance bgp 20 200 200
+   graceful-restart restart-time 300
+   graceful-restart
+   maximum-paths 2 ecmp 2
+   bgp listen range 192.168.255.0/24 peer-group EVPN-OVERLAY-PEERS peer-filter LEAF_PF
+   bgp listen range fe80::/10 peer-group UNDERLAY_PG peer-filter LEAF_PF
+   neighbor EVPN-OVERLAY-PEERS peer group
+   neighbor EVPN-OVERLAY-PEERS next-hop-unchanged
+   neighbor EVPN-OVERLAY-PEERS update-source Loopback0
+   neighbor EVPN-OVERLAY-PEERS bfd
+   neighbor EVPN-OVERLAY-PEERS ebgp-multihop 3
+   neighbor EVPN-OVERLAY-PEERS password 7 q+VNViP5i4rVjW1cxFv2wA==
+   neighbor EVPN-OVERLAY-PEERS send-community
+   neighbor EVPN-OVERLAY-PEERS maximum-routes 0
+   neighbor UNDERLAY_PG peer group
+   neighbor UNDERLAY_PG password 7 buKVsKF6TOVc4YL14SgBjg==
+   neighbor UNDERLAY_PG send-community
+   neighbor UNDERLAY_PG maximum-routes 12000
+   redistribute connected route-map RM-CONN-2-BGP
+   !
+   address-family evpn
+      neighbor EVPN-OVERLAY-PEERS activate
+   !
+   address-family ipv4
+      neighbor UNDERLAY_PG activate
+      neighbor UNDERLAY_PG next-hop address-family ipv6 originate

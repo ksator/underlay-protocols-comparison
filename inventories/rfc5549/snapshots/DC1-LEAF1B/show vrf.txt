@@ -24,12 +24,12 @@ Interfaces
 --------------------------- 
 Management1                 
 Vlan110, Vlan111, Vlan112,  
-Vlan1179, Vlan3009          
-Vlan1194, Vlan120, Vlan121, 
+Vlan1196, Vlan3009          
+Vlan1198, Vlan120, Vlan121, 
 Vlan3010                    
-Vlan1172, Vlan210, Vlan211, 
+Vlan1190, Vlan210, Vlan211, 
 Vlan3019                    
-Vlan1173, Vlan250, Vlan3020 
+Vlan1189, Vlan250, Vlan3020 
 Ethernet1, Ethernet2,       
 Loopback0, Loopback1,       
 Vlan4093, Vlan4094

@@ -1,0 +1,146 @@
+vlan 3009
+   name MLAG_iBGP_Tenant_A_APP_Zone
+   trunk group LEAF_PEER_L3
+!
+vlan 3010
+   name MLAG_iBGP_Tenant_A_WEB_Zone
+   trunk group LEAF_PEER_L3
+!
+vlan 3019
+   name MLAG_iBGP_Tenant_B_APP_Zone
+   trunk group LEAF_PEER_L3
+!
+vlan 3020
+   name MLAG_iBGP_Tenant_B_WAN_Zone
+   trunk group LEAF_PEER_L3
+!
+interface Vlan3009
+   description MLAG_PEER_L3_iBGP: vrf Tenant_A_APP_Zone
+   vrf Tenant_A_APP_Zone
+   ip address 10.255.254.5/31
+!
+interface Vlan3010
+   description MLAG_PEER_L3_iBGP: vrf Tenant_A_WEB_Zone
+   vrf Tenant_A_WEB_Zone
+   ip address 10.255.254.5/31
+!
+interface Vlan3019
+   description MLAG_PEER_L3_iBGP: vrf Tenant_B_APP_Zone
+   vrf Tenant_B_APP_Zone
+   ip address 10.255.254.5/31
+!
+interface Vlan3020
+   description MLAG_PEER_L3_iBGP: vrf Tenant_B_WAN_Zone
+   vrf Tenant_B_WAN_Zone
+   ip address 10.255.254.5/31
+!
+route-map RM-CONN-2-BGP permit 10
+   match ip address prefix-list PL-LOOPBACKS-EVPN-OVERLAY
+!
+router bgp 65102
+   router-id 192.168.255.6
+   no bgp default ipv4-unicast
+   distance bgp 20 200 200
+   graceful-restart restart-time 300
+   graceful-restart
+   maximum-paths 2 ecmp 2
+   neighbor EVPN-OVERLAY-PEERS peer group
+   neighbor EVPN-OVERLAY-PEERS remote-as 65001
+   neighbor EVPN-OVERLAY-PEERS update-source Loopback0
+   neighbor EVPN-OVERLAY-PEERS bfd
+   neighbor EVPN-OVERLAY-PEERS ebgp-multihop 3
+   neighbor EVPN-OVERLAY-PEERS password 7 q+VNViP5i4rVjW1cxFv2wA==
+   neighbor EVPN-OVERLAY-PEERS send-community
+   neighbor EVPN-OVERLAY-PEERS maximum-routes 0
+   neighbor MLAG-IPv4-PEER peer group
+   neighbor MLAG-IPv4-PEER next-hop-self
+   neighbor MLAG-IPv4-PEER route-map RM-MLAG-PEER-IN in
+   neighbor MLAG-IPv4-PEER password 7 w8NlNVwFXv8jnxgh6ur1ag==
+   neighbor MLAG-IPv4-PEER send-community
+   neighbor MLAG-IPv4-PEER maximum-routes 12000
+   neighbor UNDERLAY_PG peer group
+   neighbor UNDERLAY_PG password 7 buKVsKF6TOVc4YL14SgBjg==
+   neighbor UNDERLAY_PG send-community
+   neighbor UNDERLAY_PG maximum-routes 12000
+   neighbor 192.168.255.1 peer group EVPN-OVERLAY-PEERS
+   neighbor 192.168.255.2 peer group EVPN-OVERLAY-PEERS
+   redistribute connected route-map RM-CONN-2-BGP
+   neighbor interface Et1-2 peer-group UNDERLAY_PG remote-as 65001
+   neighbor interface Vl4093 peer-group MLAG-IPv4-PEER remote-as 65102
+   !
+   vlan-aware-bundle Tenant_A_APP_Zone
+      rd 192.168.255.6:10
+      route-target both 10:10
+      redistribute learned
+      vlan 110-112
+   !
+   vlan-aware-bundle Tenant_A_NFS
+      rd 192.168.255.6:10161
+      route-target both 10161:10161
+      redistribute learned
+      vlan 161
+   !
+   vlan-aware-bundle Tenant_A_VMOTION
+      rd 192.168.255.6:55160
+      route-target both 55160:55160
+      redistribute learned
+      vlan 160
+   !
+   vlan-aware-bundle Tenant_A_WEB_Zone
+      rd 192.168.255.6:11
+      route-target both 11:11
+      redistribute learned
+      vlan 120-121
+   !
+   vlan-aware-bundle Tenant_B_APP_Zone
+      rd 192.168.255.6:20
+      route-target both 20:20
+      redistribute learned
+      vlan 210-211
+   !
+   vlan-aware-bundle Tenant_B_WAN_Zone
+      rd 192.168.255.6:21
+      route-target both 21:21
+      redistribute learned
+      vlan 250
+   !
+   address-family evpn
+      neighbor EVPN-OVERLAY-PEERS activate
+   !
+   address-family ipv4
+      neighbor MLAG-IPv4-PEER activate
+      neighbor MLAG-IPv4-PEER next-hop address-family ipv6 originate
+      neighbor UNDERLAY_PG activate
+      neighbor UNDERLAY_PG next-hop address-family ipv6 originate
+   !
+   vrf Tenant_A_APP_Zone
+      rd 192.168.255.6:10
+      route-target import evpn 10:10
+      route-target export evpn 10:10
+      router-id 192.168.255.6
+      neighbor 10.255.254.4 peer group MLAG-IPv4-PEER
+      redistribute connected
+   !
+   vrf Tenant_A_WEB_Zone
+      rd 192.168.255.6:11
+      route-target import evpn 11:11
+      route-target export evpn 11:11
+      router-id 192.168.255.6
+      neighbor 10.255.254.4 peer group MLAG-IPv4-PEER
+      redistribute connected
+   !
+   vrf Tenant_B_APP_Zone
+      rd 192.168.255.6:20
+      route-target import evpn 20:20
+      route-target export evpn 20:20
+      router-id 192.168.255.6
+      neighbor 10.255.254.4 peer group MLAG-IPv4-PEER
+      redistribute connected
+   !
+   vrf Tenant_B_WAN_Zone
+      rd 192.168.255.6:21
+      route-target import evpn 21:21
+      route-target export evpn 21:21
+      router-id 192.168.255.6
+      neighbor 10.255.254.4 peer group MLAG-IPv4-PEER
+      redistribute connected

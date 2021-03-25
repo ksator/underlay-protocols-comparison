@@ -17,6 +17,8 @@ Codes: C - connected, S - static, K - kernel,
            via fe80::e1d:c0ff:fea3:86f3, Ethernet1
  B E      192.168.255.2/32 [20/0]
            via fe80::5214:ff:fe34:236a, Ethernet2
+ B I      192.168.255.4/32 [200/0]
+           via fe80::5214:ff:fe97:60dd, Vlan4093
  B E      192.168.255.5/32 [20/0]
            via fe80::e1d:c0ff:fea3:86f3, Ethernet1
            via fe80::5214:ff:fe34:236a, Ethernet2

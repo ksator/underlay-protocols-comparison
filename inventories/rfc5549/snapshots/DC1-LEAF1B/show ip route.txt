@@ -14,8 +14,6 @@ Gateway of last resort is not set
 
  C        10.255.252.0/31 [0/0]
            via Vlan4094, directly connected
- C        10.255.254.0/31 [0/0]
-           via Vlan4093, directly connected
  C        192.168.254.3/32 [0/0]
            via Loopback1, directly connected
  B E      192.168.254.5/32 [20/0]
@@ -25,6 +23,8 @@ Gateway of last resort is not set
            via fe80::e1d:c0ff:fea3:86f3, Ethernet1
  B E      192.168.255.2/32 [20/0]
            via fe80::5214:ff:fe34:236a, Ethernet2
+ B I      192.168.255.3/32 [200/0]
+           via fe80::5214:ff:fe0d:6f23, Vlan4093
  C        192.168.255.4/32 [0/0]
            via Loopback0, directly connected
  B E      192.168.255.5/32 [20/0]
