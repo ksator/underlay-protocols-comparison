@@ -1,4 +1,4 @@
 IPv6 Address                                  Age Hardware Addr    State Interface
-fe80::e1d:c0ff:fea3:86f3                  0:00:28 0c1d.c0a3.86f3   REACH Et1
-fe80::5214:ff:fe34:236a                   0:00:06 5014.0034.236a   REACH Et2
-fe80::5214:ff:fee1:b3f3                   0:00:20 5014.00e1.b3f3   REACH Vl4093, Port-Channel7
+fe80::e1d:c0ff:fea3:86f3                  0:00:10 0c1d.c0a3.86f3   REACH Et1
+fe80::5214:ff:fe34:236a                   0:00:38 5014.0034.236a   REACH Et2
+fe80::5214:ff:fee1:b3f3                   0:00:07 5014.00e1.b3f3   REACH Vl4093, Port-Channel7

@@ -5,6 +5,8 @@ Ethernet1       unassigned           up         up              1500
 Ethernet2       unassigned           up         up              1500            
 Loopback0       192.168.255.6/32     up         up             65535            
 Loopback1       192.168.254.5/32     up         up             65535            
+Loopback2       4.4.4.4/32           up         up             65535            
+Loopback3       4.4.4.4/32           up         up             65535            
 Management1     10.73.1.108/24       up         up              1500            
 Vlan110         10.1.110.1/24        up         up              1500            
 Vlan111         10.1.111.1/24        up         up              1500            
@@ -18,7 +20,7 @@ Vlan1196        unassigned           up         up              9164
 Vlan1197        unassigned           up         up              9164            
 Vlan1198        unassigned           up         up              9164            
 Vlan1199        unassigned           up         up              9164            
-Vlan3009        10.255.254.5/31      up         up              1500            
+Vlan3009        unassigned           up         up              1500            
 Vlan3010        10.255.254.5/31      up         up              1500            
 Vlan3019        10.255.254.5/31      up         up              1500            
 Vlan3020        10.255.254.5/31      up         up              1500            

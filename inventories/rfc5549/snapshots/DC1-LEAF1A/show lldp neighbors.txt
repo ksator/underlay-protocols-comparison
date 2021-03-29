@@ -1,4 +1,4 @@
-Last table change time   : 2:11:24 ago
+Last table change time   : 1:23:29 ago
 Number of table inserts  : 9
 Number of table deletes  : 0
 Number of table drops    : 0
@@ -10,8 +10,8 @@ Et1           DC1-SPINE1.arista.com       Ethernet1           120
 Et2           DC1-SPINE2.arista.com       Ethernet1           120 
 Et7           DC1-LEAF1B.arista.com       Ethernet7           120 
 Et8           DC1-LEAF1B.arista.com       Ethernet8           120 
+Ma1           DC1-SPINE2.arista.com       Management1         120 
 Ma1           DC1-LEAF2A.arista.com       Management1         120 
 Ma1           DC1-LEAF1B.arista.com       Management1         120 
-Ma1           DC1-SPINE2.arista.com       Management1         120 
 Ma1           DC1-LEAF2B.arista.com       Management1         120 
 Ma1           DC1-SPINE1.arista.com       Management1         120
