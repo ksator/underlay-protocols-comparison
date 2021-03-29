@@ -30,5 +30,6 @@ Vlan3010
 Loopback3, Vlan1199, Vlan210, 
 Vlan211, Vlan3019             
 Vlan1197, Vlan250, Vlan3020   
+Ethernet1, Ethernet2,         
 Loopback0, Loopback1,         
 Vlan4093, Vlan4094

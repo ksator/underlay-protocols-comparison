@@ -12,13 +12,15 @@ Codes: C - connected, S - static, K - kernel,
 
  B E      192.168.254.3/32 [20/0]
            via fe80::5214:ff:fe0d:6f23, Ethernet1
+           via fe80::5214:ff:fe97:60dd, Ethernet2
  B E      192.168.254.5/32 [20/0]
            via fe80::5214:ff:fee1:b3f3, Ethernet4
            via fe80::5214:ff:fee1:a513, Ethernet5
  B E      192.168.255.3/32 [20/0]
            via fe80::5214:ff:fe0d:6f23, Ethernet1
+           via fe80::5214:ff:fe97:60dd, Ethernet2
  B E      192.168.255.4/32 [20/0]
-           via fe80::5214:ff:fe0d:6f23, Ethernet1
+           via fe80::5214:ff:fe97:60dd, Ethernet2
  B E      192.168.255.5/32 [20/0]
            via fe80::5214:ff:fee1:b3f3, Ethernet4
            via fe80::5214:ff:fee1:a513, Ethernet5
