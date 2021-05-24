@@ -1,0 +1,10 @@
+---
+fabric_name: DC1_FABRIC
+
+output_format:
+  - text
+  # - markdown
+  # - json
+  # - yaml
+commands_list:
+  - show running-config
